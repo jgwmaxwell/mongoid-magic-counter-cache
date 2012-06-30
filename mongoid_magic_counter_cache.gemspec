@@ -3,12 +3,12 @@ $:.push File.expand_path("../lib", __FILE__)
 require "mongoid/magic-counter-cache/version"
 
 Gem::Specification.new do |s|
-  s.name        = "mongoid_magic_counter_cache"
+  s.name        = "mongoid-magic_counter_cache"
   s.version     = Mongoid::MagicCounterCache::VERSION
   s.platform    = Gem::Platform::RUBY
-  s.authors     = ["Justin Herrick"]
-  s.email       = ["justin@justinherrick.com"]
-  s.homepage    = "https://github.com/jah2488/mongoid-magic-counter-cache"
+  s.authors     = ["Justin Herrick", "JGW Maxwell"]
+  s.email       = ["justin@justinherrick.com", "jgwmaxwell@gmail.com"]
+  s.homepage    = "https://github.com/jgwmaxwell/mongoid-magic-counter-cache"
   s.summary     = %q{Setup Counter Caches in Mongoid Documents}
   s.description = %q{A quick and easy way to add counter cache functionality to model/document associations in Mongoid}
 
