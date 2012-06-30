@@ -3,7 +3,7 @@ $:.push File.expand_path("../lib", __FILE__)
 require "mongoid/magic-counter-cache/version"
 
 Gem::Specification.new do |s|
-  s.name        = "mongoid-magic_counter_cache"
+  s.name        = "mongoid_magic_counter_cache"
   s.version     = Mongoid::MagicCounterCache::VERSION
   s.platform    = Gem::Platform::RUBY
   s.authors     = ["Justin Herrick", "JGW Maxwell"]
